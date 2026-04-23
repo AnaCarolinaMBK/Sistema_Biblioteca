@@ -3,7 +3,7 @@ import pyodbc
 conexao = pyodbc.connect(
     'DRIVER={ODBC Driver 17 for SQL Server};'
     'SERVER=seuserver;'
-    'DATABASE=Biblioteca_Renovada;'
+    'DATABASE= suadatabase'
     'Trusted_Connection=yes;'
 )
 
